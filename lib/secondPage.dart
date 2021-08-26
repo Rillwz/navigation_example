@@ -11,7 +11,9 @@ class SecondPage extends StatelessWidget {
         // ignore: deprecated_member_use
         child: RaisedButton(
           child: Text('Back'),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
       ),
     );
